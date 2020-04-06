@@ -11,3 +11,8 @@ class Bidding(models.Model):
     #    on_delete=models.CASCADE,) 
     
     biddingPrice = models.IntegerField()
+    
+    biddingWinner = models.CharField(max_length=60, default='')
+    
+    def __str__(self):        
+        return self.name
