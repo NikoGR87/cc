@@ -19,14 +19,7 @@ from django.urls import path, include # Added included
 
 from rest_framework.routers import DefaultRouter 
 
-from items.views import ItemsViewSet 
-
-from auctions.views import AuctionsViewSet 
-
-from bidding.views import BiddingViewSet 
-
-from itemhistory.views import ItemHistoryViewSet 
-
+from items.views import ItemsViewSet, AuctionsViewSet, ItemHistoryViewSet, BiddingViewSet
 
 router = DefaultRouter() 
 

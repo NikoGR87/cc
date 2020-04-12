@@ -40,10 +40,7 @@ INSTALLED_APPS = [
     'oauth2_provider', # The OAuth2    
     'rest_framework', # The REST API
     'users', # Users to register
-    'items', #
-    'itemhistory', #
-    'auctions', #
-    'bidding', #    
+    'items', #    
 ]
 
 MIDDLEWARE = [
